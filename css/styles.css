@@ -53,6 +53,7 @@ body {
 }
 .adr {
   font-style: normal;
+  margin-right: 156px;
 }
 .contacts {
   color: var(--color);
@@ -145,13 +146,14 @@ body {
   display: flex;
 }
 .container {
-  width: 1158px;
+  width: 1440px;
   margin: 0 auto;
   padding: 0 15px;
 }
 .main-nav {
   display: flex;
   align-items: center;
+  margin-right: 332px;
 }
 .contact {
   display: flex;
