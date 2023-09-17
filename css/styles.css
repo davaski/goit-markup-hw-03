@@ -59,7 +59,6 @@ body {
 }
 .adr {
   font-style: normal;
-  margin-right: 156px;
 }
 .contacts {
   color: var(--color);
@@ -179,7 +178,6 @@ body {
 .main-nav {
   display: flex;
   align-items: center;
-  margin-right: 332px;
 }
 .contact {
   display: flex;
@@ -254,7 +252,7 @@ body {
   column-gap: 24px;
   row-gap: 48px;
 }
-.examples {
+.images {
   width: calc((100% - 48px) / 3);
 }
 .categories {
