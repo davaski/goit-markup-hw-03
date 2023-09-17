@@ -1,0 +1,137 @@
+:root {
+  --brand-color: #ffffff;
+  --color: #434455;
+  --back-color: #2e2f42;
+  --colors: #4d5ae5;
+  --paragrah: #f4f4fd;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: var(--brand-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.logotype {
+  color: #2e2f42;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo {
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.menu-link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+.adr {
+  font-style: normal;
+}
+.contacts {
+  color: var(--color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.contacts:hover,
+.contacts:focus {
+  color: #404bbf;
+}
+.button-section {
+  background-color: var(--back-color);
+}
+.main-name {
+  color: #ffffff;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.button-mod {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.button-mod:hover,
+.button-mod:focus {
+  background-color: #404bbf;
+}
+.name-third {
+  color: var(--back-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.paragraph {
+  color: var(--color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.second-name {
+  color: var(--back-color);
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+.team-section {
+  background-color: #f4f4fd;
+}
+.card {
+  background-color: #ffffff;
+}
+.logos {
+  color: #f4f4fd;
+}
+.model-button {
+  color: var(--colors);
+  background-color: #f4f4fd;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.model-button:hover,
+.model-button:focus {
+  color: var(--brand-color);
+  background-color: #404bbf;
+}
+.sentence {
+  color: var(--paragrah);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
