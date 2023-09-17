@@ -152,8 +152,10 @@ body {
 .main-nav {
   display: flex;
   align-items: center;
+  margin-right: 332px;
 }
 .contact {
   display: flex;
   gap: 40px;
+  margin-right: 156px;
 }
