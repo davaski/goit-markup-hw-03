@@ -53,6 +53,7 @@ body {
 }
 .adr {
   font-style: normal;
+  margin-right: 156px;
 }
 .contacts {
   color: var(--color);
@@ -157,5 +158,4 @@ body {
 .contact {
   display: flex;
   gap: 40px;
-  margin-right: 156px;
 }
