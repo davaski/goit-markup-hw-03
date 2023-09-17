@@ -203,7 +203,7 @@ body {
   gap: 24px;
 }
 .first-description {
-  width: 70%;
+  flex-basis: calc((100% - 72px) / 4);
 }
 .doing-section {
   padding-bottom: 120px;
