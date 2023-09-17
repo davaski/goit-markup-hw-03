@@ -202,7 +202,7 @@ body {
   display: flex;
   gap: 24px;
 }
-.first-description-list {
+.first-description {
   width: calc((100% - 72px) / 4);
 }
 .doing-section {
