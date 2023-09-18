@@ -16,8 +16,19 @@ body {
   color: #434455;
   background-color: var(--brand-color);
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .link {
   text-decoration: none;
@@ -52,6 +63,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  display: inline-block;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -59,6 +71,7 @@ body {
 }
 .adr {
   font-style: normal;
+  margin-left: auto;
 }
 .contacts {
   color: var(--color);
@@ -66,6 +79,8 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
+  display: inline-block;
 }
 .contacts:hover,
 .contacts:focus {
@@ -84,6 +99,8 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 .button-mod {
   color: #ffffff;
@@ -99,6 +116,7 @@ body {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin: 0 auto;
 }
 .button-mod:hover,
 .button-mod:focus {
@@ -135,6 +153,7 @@ body {
 }
 .card {
   background-color: #ffffff;
+  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 .logos {
@@ -258,4 +277,18 @@ body {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+}
+.third-name {
+  color: var(--back-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+.para-graph {
+  color: var(--color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
